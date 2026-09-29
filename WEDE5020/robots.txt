@@ -1,0 +1,22 @@
+# PP Fitness Institute robots.txt
+# Directives for search engine crawlers
+
+# Allow all crawlers by default
+User-agent: *
+Allow: /
+
+# Disallow private directory
+Disallow: /private/
+
+# Specify sitemap location
+Sitemap: https://yourwebsite.com/sitemap.xml
+
+# Crawl delay to be respectful of server resources
+Crawl-delay: 1
+
+# Comment out rules for specific bots if needed
+# User-agent: Googlebot
+# Allow: /
+
+# User-agent: Bingbot
+# Allow: /

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- PP Fitness Institute | Enquiry page -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Interested in joining PP Fitness Institute? Submit your membership enquiry form and get back to you with details about free trial sessions.">
+    <meta name="keywords" content="Membership enquiry, Join gym, Free trial, Fitness membership, MMA classes, Boxing training">
+    <meta name="author" content="PP Fitness Institute">
+    <meta property="og:title" content="Membership Enquiry | PP Fitness Institute">
+    <meta property="og:description" content="Start your fitness journey with a free trial. Fill out our enquiry form to get started.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourwebsite.com/enquiry.html">
+    <link rel="canonical" href="https://yourwebsite.com/enquiry.html">
+    <title>Membership Enquiry | PP Fitness Institute | Free Trial Form</title>
+    <link rel="stylesheet" href="css_assets/style.css">
+</head>
+<body>
+    <!-- Site header and main navigation -->
+    <header>
+        <h1>PP Fitness Institute</h1>
+        <nav>
+            <ul>
+                <li style="display: inline-block;"><a href="index.html">Home</a></li>
+                <li style="display: inline-block;"><a href="about_us.html">About Us</a></li>
+                <li style="display: inline-block;"><a href="programmes.html">Programmes</a></li>
+                <li style="display: inline-block;"><a href="enquiry.html">Enquiry</a></li>
+                <li style="display: inline-block;"><a href="contact_us.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main enquiry section with membership interest form -->
+    <main>
+        <h2>Membership Enquiry</h2>
+        <p>Interested? Fill out the form and we'll contact you.</p>
+
+        <!-- Enquiry form collects preferred programme and contact details -->
+         <form> 
+         <fields> 
+        <fielset id="enquiry-form" action="#" method="post">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" min="0">
+            <label for="what do you like">what do you like</label><br>
+            <input type="checkbox" id="checkbox1" name="interests" value="mma">
+            <label for="checkbox1">MMA</label><br>
+            <input type="checkbox" id="checkbox2" name="interests" value="boxing">
+            <label for="checkbox2">Boxing</label><br>
+            <input type="checkbox" id="checkbox3" name="interests" value="strength">
+            <label for="checkbox3">Strength & Conditioning</label><br>
+            <input type="checkbox" id="checkbox4" name="interests" value="kids">
+            <label for="checkbox4">Kids Programme</label><br>
+            <label>Gender</label>
+            <select id="gender" name="gender">
+                <option value="">-- Select --</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+            <label for="Date of birth">Date of Birth</label>
+            <input type="date" id="dob" name="dob">
+            <label for="programme">Programme Interested In *</label>
+            <select id="programme" name="programme" required>
+                <option value="">-- Select a programme --</option>
+                <option value="mma">Mixed Martial Arts (MMA)</option>
+                <option value="boxing">Specialized Boxing</option>
+                <option value="strength">Strength & Conditioning</option>
+                <option value="kids">Kids Programme</option>
+            </select>
+            <label for="Telephone">Telephone</label>
+            <input type="tel" id="telephone" name="telephone">
+            <label for="message">Questions or Comments</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+            <button type="reset">Reset Form</button>
+            <button type="submit">Submit Enquiry</button>
+        </fielset>
+        </form>
+    </main>
+
+    <!-- Footer with contact details and address -->
+    <footer>
+        <p>&copy; 2026 PP Fitness Institute. All rights reserved.</p>
+        <p>Email: <a href="mailto:pottersolo7@gmail.com">pottersolo7@gmail.com</a> | Phone: 060 374 9813</p>
+        <p> 10944 Kangaroo St, Thembisa, 1632, South Africa</p>
+    </footer>
+
+    <!-- JavaScript for form validation and navigation highlighting -->
+    <script src="js_assets/script.js" defer></script>
+</body>
+</html>
